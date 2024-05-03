@@ -1,0 +1,45 @@
+Notes:
+1) tsc --init     create typescript config file 
+                  change noEmitOnError
+2) create index.html and index.ts files 
+3) tsc -p 
+
+Using parcel (bundler)
+1) npm init -y 
+2) npm i parcel --save-dev 
+3) create index.html and src/index.ts 
+4) add index.ts as script to index.html
+5) tsc --init     create typescript config file
+                  change noEmitOnError
+6) npm i prettier --save-dev
+7) echo {}> .prettierrc.json
+8) in package.json add new script
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.htnml",
+    remove "main": index.js"
+9) npm start
+
+
+Section 2 All About Types
+28	Index Signatures
+30	Tuples
+31	Readonly arrays
+32	null and undefined
+34	Enums
+35	Practice (adding optional)
+
+Section 3 Functions in TypeScript
+41 	Function call signatures
+42	Introduction to Function Overloading
+43	Using same function with different parameters
+
+Section 4 Generics in TypeScript
+48	Intro to generics
+49 	Where can you declare generics
+50	Practice
+
+Section 5 Classes and Inheritance
+64  Shorthand for initial properties
+66  Using a mutator - setter method
+67  Using an accessor - getter method
+
+Section 6 - Abstract classes and interfaces
