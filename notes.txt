@@ -1,0 +1,21 @@
+Notes:
+1) tsc --init     create typescript config file 
+                  change noEmitOnError
+2) create index.html and index.ts files 
+3) tsc -p 
+
+Using parcel (bundler)
+1) npm init -y 
+2) npm i parcel --save-dev 
+3) create index.html and src/index.ts 
+4) add index.ts as script to index.html
+5) tsc --init     create typescript config file
+                  change noEmitOnError
+6) npm i prettier --save-dev
+7) echo {}> .prettierrc.json
+8) in package.json add new script
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.htnml",
+    remove "main": index.js"
+9) npm start
+
+Using ts-node
