@@ -7,15 +7,15 @@ type Caterer = {
 type Airplane = {
   model: string;
   flightNumber: string;
-  timeOfDepareture: Date;
+  timeOfDeparture: Date;
   timeOfArrival: Date;
   caterer : Caterer;
 };
 
-let airplane: Airplane = {
+const airplane: Airplane = {
   model: "Airbus A380",
   flightNumber: "A2201",
-  timeOfDepareture: new Date(),
+  timeOfDeparture: new Date(),
   timeOfArrival: new Date(),
   caterer: {
     name: "Special Food Ltd",

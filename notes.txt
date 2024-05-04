@@ -5,6 +5,7 @@ Notes:
 3) tsc -p 
 
 Using parcel (bundler)
+note: you can also use npx parcel index.html
 1) npm init -y 
 2) npm i parcel --save-dev 
 3) create index.html and src/index.ts 
