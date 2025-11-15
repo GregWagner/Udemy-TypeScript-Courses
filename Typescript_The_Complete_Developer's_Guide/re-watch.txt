@@ -1,5 +1,8 @@
-30  Destructuring with Annotations
-31  Annotations around Objects
+30    Destructuring with Annotations
+31    Annotations around Objects
+36-38 Tuples
 
 42  Syntax around Interfaces
 43  Functions in Interfaces
+
+59  Constructors

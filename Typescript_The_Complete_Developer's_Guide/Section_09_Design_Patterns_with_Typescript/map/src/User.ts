@@ -7,12 +7,13 @@ export class User implements Mappable {
     lat: number;
     lng: number;
   };
+  color: 'red';
 
   constructor() {
-    this.name = faker.person.firstName();
+    this.name = faker.name.firstName();
     this.location = {
-      lat: faker.location.latitude(),
-      lng: faker.location.longitude(),
+      lat: parseFloat(faker.address.latitude()),
+      lng: parseFloat(faker.address.longitude()),
     };
   }
 

@@ -1,4 +1,4 @@
-// Instructions to every other cclass
+// Instructions to every other class
 // on how they can be an argument to addMarker()
 export interface Mappable {
   location: {
@@ -6,6 +6,7 @@ export interface Mappable {
     lng: number;
   };
   markerContent(): string;
+  color: string;
 }
 
 export class CustomMap {
